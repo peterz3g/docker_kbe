@@ -16,6 +16,7 @@ apt-get -y upgrade && \
 apt-get install -y tree && \
 apt-get install -y telnet && \
 apt-get install -y libmysqld-dev && \
+apt-get install -y libssl-dev && \
 apt-get install -y cron && \
 apt-get install -y vim && \
 touch /code/jobs.log && \
